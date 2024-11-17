@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="carousel-container col-12">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="carousel-image" src="../../static/images/carousel/carousel-1.jpg" class="d-block w-100" alt="Carousel 1">
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-image" src="../../static/images/carousel/carousel-2.jpg" class="d-block w-100" alt="Carousel 2">
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-image" src="../../static/images/carousel/carousel-3.jpg" class="d-block w-100" alt="Carousel 3">
+          </div>
+          <div class="hero-text">
+            <h1>Farming is the best solution of worlds starvation</h1>
+            <p>We provide farming solutions to help people live a more balanced and sustainable life.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="services-scroll" class="services-container container text-center"> 
+      <h2 class="text-center">Our Services</h2>
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Planting</h4>
+            <img src="../../static/images/services/planting.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>We help you plant your desired crops and grow them in the most optimal conditions.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Mulching</h4>
+            <img src="../../static/images/services/Mulching.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>We provide mulching services to help retain soil moisture, suppress weeds, and enhance soil fertility.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Ploughing</h4>
+            <img src="../../static/images/services/Plowing.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>Our ploughing services prepare your fields for planting, promoting healthy crop growth.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Mowing</h4>
+            <img src="../../static/images/services/mowing.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>Our mowing services ensure your lawns and fields are neatly trimmed and well-maintained.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Seeding</h4>
+            <img src="../../static/images/services/seeding.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>We assist with precise seeding techniques to ensure optimal germination and yield.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Fresh Vegetables</h4>
+            <img src="../../static/images/services/fresh-v.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>Get farm-fresh vegetables delivered to you, harvested with care to ensure maximum freshness.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Watering</h4>
+            <img src="../../static/images/services/watering.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>We provide efficient watering services to ensure your plants receive adequate hydration.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mb-3 mx-auto">
+          <div class="card p-3">
+            <h4>Vegetable Selling</h4>
+            <img src="../../static/images/services/v-selling.png" alt="" class="card-img-top mb-3" style="width: 40px; height: 80px;">
+            <p>We offer a variety of fresh, locally grown vegetables for sale to meet your nutritional needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+    

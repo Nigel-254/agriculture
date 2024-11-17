@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collapse, .navbar-nav {
+    margin-left: 120px;
+}
+
+.nav-item {
+    margin-right: 100px;
+    
+}
+
+.nav-item a {
+    color: white;
+}
+
+/* Hero Section */
+.carousel-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel {
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    margin: 300px 300px;
+    
+}
+
+/* Services Section */
+.services-container .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services-container .card img {
+    margin: 0 auto;
+}
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+
+  .card-img-top {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Contact Form */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Contact Page */
+/* Hero Section */
+#contact-hero-image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* Map */
+.google-map {
+    display: flex;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact section */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-info, .form-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Form section */
+.form-container {
+   flex: 2;
+}
+
+
+/* Footer */
+
+footer {
+    height: auto;
+    margin: auto;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+
+/* .footer-item {
+    color: black;
+    list-style-type: none;
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
