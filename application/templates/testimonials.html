@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block tittle %}
+Testimonials
+{% endblock %}
+
+{% block content %}
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h1 class="text-white">Our Testimonials</h1>
+    </div>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial-block mx-auto">
+            <img src="../../static/images/testimonial1.jpg" alt="Client" class="rounded-circle">
+            <p>"Thanks to GreenHarvest, I’ve increased my crop yield by 40% using sustainable farming techniques. Their training and support have been a game-changer for my family farm."</p>
+            <h4>Nigel Mongo</h4>
+            <span>Smallholder Farmer</span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-block mx-auto">
+            <img src="../../static/images/testimonial2.jpg" alt="Client" class="rounded-circle">
+            <p>"The quality of produce from GreenHarvest is unmatched. Knowing that the food I buy is grown sustainably makes me feel good about supporting local farmers."</p>
+            <h4>Eugen Emoyo</h4>
+            <span>Regular Customer</span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-block mx-auto">
+            <img src="../../static/images/testimonial3.jpg" alt="Client" class="rounded-circle">
+            <p>"Collaborating with GreenHarvest has been a rewarding experience. Their dedication to empowering farmers and promoting eco-friendly practices is truly inspiring."</p>
+            <h4>Kegode Felix</h4>
+            <span> AgriFuture NGO</span>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+    

@@ -1,4 +1,5 @@
 * {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,8 +45,20 @@ h5 {
     margin: 300px 300px;
     
 }
+.hero-text h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.hero-text p{
+    font-size: 22px;
+    margin: 20px;
+}
 
 /* Services Section */
+.services-container{
+    margin: 20px;
+    padding: 20px;
+}
 .services-container .card {
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -124,6 +137,7 @@ iframe {
 
 /* Form section */
 .form-container {
+    height: auto;
    flex: 2;
 }
 
@@ -131,8 +145,8 @@ iframe {
 /* Footer */
 
 footer {
+    padding: 30px;
     height: auto;
-    margin: auto;
 }
 
 footer ul {
@@ -168,4 +182,106 @@ a:hover {
     .contact-container {
         flex-direction: column;
     }
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url('../../static/images/carousel/carousel-3.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.testimonial-block {
+    overflow: hidden;
+  max-width: 450px;
+    height: 500px;
+  margin: 50px auto 50px auto;
+  padding: 40px;
+  background: linear-gradient(to bottom, rgba(1, 1, 0, 0.2), rgba(1, 1, 0, 1));
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(250, 250, 250, 0.1);
+  text-align: center;
+}
+
+.testimonial-block img {
+  width: 200px;
+  height: 200px;
+  margin-top: -25px;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+.testimonial-block p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.testimonial-block h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.testimonial-block span {
+  font-size: 16px;
+  color: #ddd;
+}
+/* About Section */
+.about {
+  font-family: 'Raleway', serif;
+  background-color: #FFFFFF;
+  color: #211d1d;
+}
+.container1{
+    margin: 0;
+    width: 100%;
+
+}
+
+/* Header Section Styling */
+.about-content1 {
+    margin: 0;
+    width: 100%;
+  height: 30vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.7)),
+    url('../../static/images/carousel/carousel-3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 0 0;
+}
+
+.about-content1 span {
+  color: #009970;
+}
+
+/* Content Section Styling */
+.about-content2{
+    margin: 20px auto 0 auto;
+    display: flex;
+    padding: 100px;
+    gap: 40px;
+}
+.about-content2 .about1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about2 h1 {
+    margin: 0 0 20px 20px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #211d1d;
+}
+
+.about2 p {
+  font-size: 19px;
+  line-height: 1.6;
+    margin: 20px;
+  color: #555555;
 }
